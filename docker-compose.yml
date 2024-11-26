@@ -4,7 +4,7 @@ services:
     build:
       context:        .
       tags:
-        - ia_elevate:latest
+        - innovanon/ia_elevate:latest
     restart:          no
     logging:
       driver:         syslog   
